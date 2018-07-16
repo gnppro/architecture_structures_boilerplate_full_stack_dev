@@ -6,18 +6,18 @@ Aplicaciones Web con el siguiente Stack de Desarrollo:
 [++ MERN ++]
 
 **FRONT-END
-	HTML
+	-HTML
 		+ Bootstrap (opcional)
-	CSS (Grid CSS + Flex Box)
+	-CSS (Grid CSS + Flex Box)
 		+ SASS
-	JavaScript 
+	-JavaScript 
 		+ React
-	Webpack
+	-Webpack
 
 **BACK-END
-	Node.js (npm o yarn)
+	-Node.js (npm o yarn)
 
-	Express
+	-Express
 
 	-Bases de Datos No SQL:
 	MongoDB
@@ -29,44 +29,44 @@ Aplicaciones Web con el siguiente Stack de Desarrollo:
 **Directory Structure:
 
 My-Project/
-	app/
-		Controllers/
-		middleware/
-		Models/
-	database/
-	docs/
-	public/
-		assets/
-			js/
-				index.js
-			css/
-				main.css
-			img/
-		index.html
-	routes/
-	src/
-		assets/
-			js/
-				actions/
-				components/
-				containers/
-				reducers/
-				index.js
-			sass/
-				components/
-				modules/ #mixin declarations, functions, and variables
-				themes/
-				main.scss
-			img/
-		Views/
-			layouts/
-			home.html
-		lang/
-	test/
-	vendor/
-		bin/
-		stylesheets/
-			_normalize.scss
-	webpack/
-		webpack.config.js
+|---app/
+|	|---Controllers/
+|	|---middleware/
+|	|---Models/
+|---database/
+|---docs/
+|---public/
+|	|---assets/
+|	|	|---js/
+|	|	|	|---index.js
+|	|	|---css/
+|	|	|	|---main.css
+|	|	|---img/
+|	|---index.html
+|---routes/
+|---src/
+|		|---assets/
+|		|	|---js/
+|		|	|	|---actions/
+|		|	|	|---components/
+|		|	|	|---containers/
+|		|	|	|---reducers/
+|		|	|	|---index.js
+|		|	|---sass/
+|		|	|	|---components/
+|		|	|	|---modules/ #mixin declarations, functions, and variables
+|		|	|	|---themes/
+|		|	|	|---main.scss
+|		|	|---img/
+|		|---Views/
+|		|	|---layouts/
+|		|	|---home.html
+|		|---lang/
+|---test/
+|---vendor/
+|	|---bin/
+|	|---stylesheets/
+|		|---_normalize.scss
+|---webpack/
+|	|---webpack.config.js
 		
