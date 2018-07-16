@@ -1,11 +1,14 @@
 # webpack_config
-Architecture - Structures - Boilerplate - Full Stack Dev.
+> ** Architecture - Structures - Boilerplate - Full Stack Dev. **
 
 Aplicaciones Web con el siguiente Stack de Desarrollo:
 
+```mermaid
+sequenceDiagram
 [++ MERN ++]
+```
 
-**FRONT-END
+## FRONT-END
 	-HTML
 		+ Bootstrap (opcional)
 	-CSS (Grid CSS + Flex Box)
@@ -14,7 +17,7 @@ Aplicaciones Web con el siguiente Stack de Desarrollo:
 		+ React
 	-Webpack
 
-**BACK-END
+## BACK-END
 	-Node.js (npm o yarn)
 
 	-Express
@@ -26,7 +29,7 @@ Aplicaciones Web con el siguiente Stack de Desarrollo:
 	PostgreSQL
 		MySQL (opcional)
 
-**Directory Structure:
+# Directory Structure:
 
 ```
 My-Project/
