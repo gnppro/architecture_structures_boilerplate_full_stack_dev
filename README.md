@@ -28,44 +28,46 @@ Aplicaciones Web con el siguiente Stack de Desarrollo:
 
 ```
 My-Project/
-|---app/
-| |---Controllers/
-| |---middleware/
-| |---Models/
-|---database/
-|---docs/
-|---public/
-| |---assets/
-| | |---js/
-| | | |---index.js
-| | |---css/
-| | | |---main.css
-| | |---img/
-| |---index.html
-|---routes/
-|---src/
-| |---assets/
-| | |---js/
-| | | |---actions/
-| | | |---components/
-| | | |---containers/
-| | | |---reducers/
-| | | |---index.js
-| | |---sass/
-| | | |---components/
-| | | |---modules/ #mixin declarations, functions, and ariables
-| | | |---themes/
-| | | |---main.scss
-| | |---img/
-| |---Views/
-| | |---layouts/
-| | |---home.html
-| |---lang/
-|---test/
-|---vendor/
-| |---bin/
-| |---stylesheets/
-| |---_normalize.scss
-|---webpack/
-| |---webpack.config.js
+├───app/
+| ├───Controllers/
+| ├───middleware/
+| └───Models/
+├───database/
+├───docs/
+├───public/
+| ├───assets/
+| | ├───js/
+| | | ├───index.js
+| | | └───**/*.js
+| | ├───css/
+| | | ├───main.css
+| | | └───**/*.css
+| | └───img/
+| └───index.html
+└───routes/
+├───src/
+| ├───assets/
+| | ├───js/
+| | | ├───actions/
+| | | ├───components/
+| | | ├───containers/
+| | | ├───reducers/
+| | | └───index.js
+| | |───sass/
+| | | ├───components/
+| | | ├───modules/ #mixin declarations, functions, and variables
+| | | ├───themes/
+| | | └───main.scss
+| | └───img/
+| |───Views/
+| | ├───layouts/
+| | └───home.html
+| └───lang/
+├───test/
+├───vendor/
+| ├───bin/
+| ├───stylesheets/
+| └───_normalize.scss
+├───webpack/
+| └───webpack.config.js
 ```
