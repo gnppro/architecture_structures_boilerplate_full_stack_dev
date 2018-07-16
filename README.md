@@ -1,35 +1,30 @@
-# webpack_config
-> ** Architecture - Structures - Boilerplate - Full Stack Dev. **
+# + MERN +
+> **Architecture - Structures - Boilerplate - Full Stack Dev.**
 
 Aplicaciones Web con el siguiente Stack de Desarrollo:
 
-```mermaid
-sequenceDiagram
-[++ MERN ++]
-```
-
 ## FRONT-END
-	-HTML
+	- HTML
 		+ Bootstrap (opcional)
-	-CSS (Grid CSS + Flex Box)
+	- CSS (Grid CSS + Flex Box)
 		+ SASS
-	-JavaScript 
+	- JavaScript 
 		+ React
-	-Webpack
+	- Webpack
 
 ## BACK-END
-	-Node.js (npm o yarn)
+	- Node.js (npm o yarn)
 
-	-Express
+	- Express
 
-	-Bases de Datos No SQL:
+	- Bases de Datos No SQL:
 	MongoDB
 		Firebase (opcional)
-	-Bases de Datos SQL:
+	- Bases de Datos SQL:
 	PostgreSQL
 		MySQL (opcional)
 
-# Directory Structure:
+## Directory Structure:
 
 ```
 My-Project/
