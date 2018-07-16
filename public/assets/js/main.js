@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ../sass/main.scss */ \"./src/assets/sass/main.scss\");\n\nvar _message = __webpack_require__(/*! ./message.js */ \"./src/assets/js/message.js\");\n\ndocument.write(\"HOLA DESDE WEBPACK SASS + BABEL + Images + Fonts\");\n\ndocument.write(\"<br/>\", _message.firstMessage);\n\n//# sourceURL=webpack:///./src/assets/js/index.js?");
+eval("\n\n__webpack_require__(/*! ../sass/main.scss */ \"./src/assets/sass/main.scss\");\n\nvar _message = __webpack_require__(/*! ./message.js */ \"./src/assets/js/message.js\");\n\ndocument.write(\"HOLA DESDE WEBPACK + SASS + BABEL + Images + Fonts\");\ndocument.write(\"1\");\n\ndocument.write(\"<br/>\", _message.firstMessage);\n\n//# sourceURL=webpack:///./src/assets/js/index.js?");
 
 /***/ }),
 

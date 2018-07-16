@@ -40,7 +40,7 @@ My-Project/
 			js/
 				index.js
 			css/
-				index.css
+				main.css
 			img/
 		index.html
 	routes/
@@ -53,7 +53,10 @@ My-Project/
 				reducers/
 				index.js
 			sass/
-				index.scss
+				components/
+				modules/ #mixin declarations, functions, and variables
+				themes/
+				main.scss
 			img/
 		Views/
 			layouts/
@@ -63,7 +66,7 @@ My-Project/
 	vendor/
 		bin/
 		stylesheets/
-			normalize.css
+			_normalize.scss
 	webpack/
 		webpack.config.js
-
+		

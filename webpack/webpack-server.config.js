@@ -13,7 +13,7 @@ module.exports = {
     contentBase: path.join(__dirname, '../'), // Ruta por defecto: root
     open: true, // Abre una pestaña en el navegador
     compress: true, // Comprime los archivos (gzip)
-    publicPath: '../public/', //Los archivos estarán disponibles en esa ruta
+    publicPath: '/server/', //Los archivos estarán disponibles en esa ruta
     stats: 'errors-only', // Solo vamos a ver los mensajes que sean error.
     port: 9000// Puerto 9000
   },
