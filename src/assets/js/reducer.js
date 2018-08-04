@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const ADD_TOKEN = 'ADD_TOKEN';
 const ITEMS = 'ITEMS';
-
+// ACCIONES A MANEJAR
 export const addToken = (token) => ({ type: ADD_TOKEN, payload: token });
 export const addDataItems = (data) => ({ type: ITEMS, payload: data });
 
@@ -34,7 +34,7 @@ const intialState = {
     token: localStorage.getItem('token'),
     data: localStorage.getItem('data'),
 }
-
+// REDUCER
 export default (state = intialState, action) => {
     console.log('state', state);
     console.log('action', action);
@@ -42,6 +42,7 @@ export default (state = intialState, action) => {
         case ADD_TOKEN:
             localStorage.setItem('token', action.payload);
             return {...state, token: action.payload};
+            // return [...state, {title: action.payload}]
         case ITEMS:
             return {...state, data: action.payload };
         default:

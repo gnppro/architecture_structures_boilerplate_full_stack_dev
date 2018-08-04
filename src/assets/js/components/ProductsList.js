@@ -16,6 +16,9 @@ const Cover = styled.img`
 `;
 
 class ProductsList extends Component {
+    state = {
+        author: 'Gerardo Nava'
+    }
     render(){
         const {cover, title, author} = this.props
         return (
