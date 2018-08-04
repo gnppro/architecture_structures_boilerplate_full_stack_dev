@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-// import './App.css';
+import ProductsList from './components/ProductsList';
 
 class App extends Component {
   render() {
+    const productslist = this.props.data.categories[0].playlist
+    console.log(this.props.data)
     return ( 
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Bienvenido a React</h1>
-        </header>
-        <p className="App-intro">
-          Para empezar, edita el componente App<code>src/assets/App.js</code> guarda y recarga.
-        </p>
+      <div>
+      {
+        productslist.map((items)=>{
+          return <ProductsList {...items} key={items.id} />
+        })
+      }
       </div>
-    );
+    )
   }
 }
 
